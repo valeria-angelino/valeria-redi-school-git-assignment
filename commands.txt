@@ -1,0 +1,42 @@
+cd "C:\Users\Valeria Angelino\Desktop\Github"
+	# redirects all the console commands to a particular file
+
+git clone https://github.com/valeria-angelino/valeria-redi-school-git-assignment.git
+	# adds my repository to the previously mentioned file in my pc
+
+git status
+	# helps know what changes have been done (for example, after creating the txt file)
+
+cd "C:\Users\Valeria Angelino\Desktop\Github\valeria-redi-school-git-assignment"
+	# again, it redirects console commands to the cloned repository
+
+git status -s
+	# shorter version of status to see metanilgul changes
+
+git add .
+	# tells github to keep track of everything that has been done/mentioned so far (for example the commands txt)
+
+git config --global user.name "valeria-angelino"
+	# to specify who I am
+
+git config --global user.email "angelinovaleria98@gmail.com"
+	# to specify my email adress
+
+git commit -m "Added empty commands file"
+	# to save any changes done. The message explains the changes
+
+git push
+	# upload all that has been commited to Github
+
+
+	# To edit the Commands.txt file, I manually opened it on my folder in my desktop and added the commands used in the Konsole***
+
+git add commands.txt
+	# tells github to keep track of that particular txt file
+
+git commit -m "Added the commands used in the Konsole with small explanation"
+	# to properly save the changes done in the text file with a brief 
+comment
+
+git push
+	# to do another upload of the changes into the repository
